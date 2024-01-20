@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: #1f1f1f; */
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #1f1f1f;
+}
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+input{
+    color: grey;
+    background-color: #262626;
+    border: 0px solid black;
+    border-radius: 15px;
+    padding: 0px 20px;
+    margin: 10px;
+    height: 35px;
+    width: 300px;
+}
+.header-buttons{
+    border: 0px;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: bold;
+    margin: 10px;
+    background-color: #262626;
+}
+#about-us-container{
+    display: flex;
+    justify-content: center;
+}
+#about_us{
+    background-color: #262626;
+    /* height: 200px; */
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px;
+    width: 90%;
+    position: relative;
+}
+.about-us-list-item{
+    display: flex;
+    align-items: center;
+}
+.icons{
+    height: 50px;
+    margin: 10px;
+}
+#clock-knowmore>img{
+    height: 180px;
+    /* margin: 10px; */
+}
+#clock-knowmore>button{
+    height: 50px;
+    width: 120px;
+    border-radius: 25px;
+    /* margin: 10px; */
+}
+#clock-knowmore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    /* width: 500px; */
+}
+.yellow-button{
+    background-color: yellow;
+    color: #262626;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 0px;
+}
+h3{
+    margin: 10px 20px;
+    padding: 10px;
+}
+p{
+    margin: 0px 20px;
+}
+.card{
+    background-color: #262626;
+    margin: 20px;
+    border-radius: 20px;
+    position: relative;
+    height: 300px;
+    width: 300px;
+}
+#categorie-header{
+    /* margin-left: 20px; */
+    padding: 20px;
+    padding-left: 40px;
+}
+#categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#categories>div>button{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+#categories>div>h3{
+    margin: 10px 10px;
+    padding-top: 20px;
+}
+#footer{
+    display: flex;
+    margin: 30px;
+    background-color: #262626;
+    border-radius: 20px;
+    padding: 20px;
+}
+#footer>div{
+    margin: 10px;
+}
+#footer>div>p{
+    margin: 5px;
+}
+#footer>div>h1,h3{
+    margin-left: 0;
+    padding-left: 2px;
+}
+#description{
+    flex: 2;
+}
+#description>h1{
+    /* margin: 20px; */
+}
+#site-map{
+    flex: 1;
+}
+#social{
+    flex: 1;
+}
